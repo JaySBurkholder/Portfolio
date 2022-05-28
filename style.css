@@ -1,0 +1,107 @@
+html{
+scroll-behavior: smooth;
+
+}
+
+
+
+
+#nav-bar { 
+height: 100px;
+background-color: blue;
+color: white;
+display: flex ;
+justify-content: space-between;
+
+}
+
+#h1 {
+padding-right: 100px;
+
+}
+
+#nav-bar ul li {
+display: inline;
+margin-left: 20px;
+border: solid 1px white;
+margin-right: 20px;
+
+}
+
+#nav-bar ul li a{
+color: antiquewhite;
+text-decoration: none;
+
+}
+
+
+
+#About-Me {
+height: 500px;
+background-color: bisque;
+display: flex;
+justify-content: space-between;
+
+}
+
+#About-Me h2 {
+width: fit-content;
+height: fit-content;
+padding-left: 50px;
+padding-right: 25px;
+}
+
+
+#About-Me p {
+width: 70%;
+padding-right: 30px;
+border-left: solid 2px black;
+height: fit-content;
+padding-left: 50px;
+}
+
+
+
+#Works {
+
+background-color: aquamarine;
+display: flex;
+justify-content: space-between;
+
+}
+
+#Works h2 {
+width: fit-content;
+height: fit-content;
+padding-left: 50px;
+padding-right: 25px;
+
+}
+    
+#Project-Container{
+display: flex;
+flex-wrap: wrap;
+width: 70%;
+padding-right: 30px;
+border-left: solid 2px black;
+padding-left: 50px;
+}
+
+#featured-project{
+width: 100%;
+
+    
+}
+
+.project-card{
+width: 50%;
+padding-top: 50px;
+
+}
+
+
+#Contact-Me {
+height: 700px;
+background-color: darkmagenta;
+
+}
