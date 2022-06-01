@@ -1,0 +1,135 @@
+/* overall html */
+html{
+scroll-behavior: smooth;
+background-color: #011638;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header {
+padding: 5px 5px;
+background-color: #364156;
+}
+
+
+
+/* adding flexbox and adjusting the height and font color of the header */
+#nav-bar { 
+    height: 75px;
+    color: #cdcdcd;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+/*  Adjusting header 1 element "Jay Burkholder" inside nav-bar*/
+h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+
+/* adding flexbox directly to the unordered list on the navbar */
+#nav-bar ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+
+/* adjusting margins on the listed header elements */
+#nav-bar ul li {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+
+/* adjusting page list link elements */
+#nav-bar ul li a{
+color:#cdcdcd;
+border: solid 2px #cdcdcd;
+box-sizing: border-box;
+text-decoration:none;
+text-transform: uppercase;
+font-size: 1vw;
+margin: 5px;
+display: inline-flex;
+}
+
+
+/* This is the About Me section */
+#About-Me {
+height: 500px;
+background-color: #cdcdcd;
+display: flex;
+justify-content: space-between;
+
+}
+
+/* This is the About Me header */
+#About-Me h2 {
+width: fit-content;
+height: fit-content;
+padding-left: 50px;
+padding-right: 25px;
+color: #364156;
+}
+
+
+#About-Me p {
+width: 70%;
+padding-right: 30px;
+border-left: solid 2px #364156;
+height: fit-content;
+padding-left: 50px;
+}
+
+
+#Works {
+
+background-color: #dff8Eb;
+display: flex;
+justify-content: space-between;
+
+}
+
+#Works h2 {
+width: fit-content;
+height: fit-content;
+padding-left: 50px;
+padding-right: 25px;
+color: #214e34;
+}
+    
+#Project-Container{
+display: flex;
+flex-wrap: wrap;
+width: 70%;
+padding-right: 30px;
+border-left: solid 2px #214e34;
+padding-left: 50px;
+}
+
+#featured-project{
+width: 100%
+    
+}
+
+
+
+.project-card{
+width: 50%;
+padding-top: 50px;
+
+}
+
+
+#Contact-Me {
+height: 700px;
+background-color: darkmagenta;
+
+}
