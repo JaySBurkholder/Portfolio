@@ -6,6 +6,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 
 
+/* header background */
 header {
 padding: 5px 5px;
 background-color: #364156;
@@ -61,16 +62,33 @@ display: inline-flex;
 }
 
 
+/* image below header */
+.image-below-header {
+background-color: #011638;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+img{
+    width: 30%;
+    position: relative;
+    bottom: 2.5%;
+}
+
+
 /* This is the About Me section */
 #About-Me {
-height: 500px;
+height: 350px;
 background-color: #cdcdcd;
 display: flex;
 justify-content: space-between;
 
 }
 
-/* This is the About Me header */
+/* This is the About Me header/title */
 #About-Me h2 {
 width: fit-content;
 height: fit-content;
@@ -80,6 +98,7 @@ color: #364156;
 }
 
 
+/* The About Me paragraphs */
 #About-Me p {
 width: 70%;
 padding-right: 30px;
@@ -89,12 +108,12 @@ padding-left: 50px;
 }
 
 
+/* The container for my projects */
 #Works {
-
 background-color: #dff8Eb;
 display: flex;
 justify-content: space-between;
-
+height: 1300px;
 }
 
 #Works h2 {
@@ -114,22 +133,43 @@ border-left: solid 2px #214e34;
 padding-left: 50px;
 }
 
-#featured-project{
-width: 100%
-    
+.featured-project{
+    width: 100%;
+    position: relative;
+    top: 3.5%;
 }
 
-
+.Run-Buddy{
+ width: 100%;
+}
 
 .project-card{
 width: 50%;
-padding-top: 50px;
-
+padding-top: 30px;
 }
 
 
 #Contact-Me {
 height: 700px;
 background-color: darkmagenta;
+}
+
+#Contact-Me h2{
+    width: fit-content;
+    height: fit-content;
+    padding-left: 50px;
+    padding-right: 25px;
+    color: #364156;
+    }
+    
+    
+    /* The About Me paragraphs */
+    #Contact-Me p {
+    width: 70%;
+    padding-right: 30px;
+    border-left: solid 2px #364156;
+    height: fit-content;
+    padding-left: 50px;
+    }
 
 }
