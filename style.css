@@ -10,15 +10,39 @@ color-scheme: #3317d3, #47ffd1, #ca7df9, #ffffff, #f5e2c8, #0d0221;
 }
 
 /* for mobile screens */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 970px) {
     h1 {
         display: flex;
         align-content: center;
     }
-  #nav-bar ul li {
-    flex-direction: column;
+   #nav-bar {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
    }
 }
+
+/* PC */
+@media only screen and (min-width: 970px) {
+/* adding flexbox and adjusting the height and font color of the header */
+#nav-bar { 
+    /* height: 75px; */
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+    /* adjusting margins on the listed header elements */
+    #nav-bar ul li {
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+}
+
+
+
 
 
 /* header background */
@@ -29,15 +53,7 @@ background-color: #0d0221;
 
 
 
-/* adding flexbox and adjusting the height and font color of the header */
-#nav-bar { 
-    /* height: 75px; */
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+
 
 
 /*  Adjusting header 1 element "Jay Burkholder" inside nav-bar*/
@@ -56,12 +72,7 @@ h1 {
     list-style: none;
 }
 
-
-/* adjusting margins on the listed header elements */
-#nav-bar ul li {
-    margin-left: 20px;
-    margin-right: 50px;
-}
+/* 
 
 
 /* adjusting page list link elements */
@@ -125,7 +136,7 @@ color: #ffffff;
 
 /* The container for my projects */
 #Works {
-background-color: #ffffff;
+background-color: #f5e2c8;
 display: flex;
 justify-content: space-between;
 height: fit-content;
@@ -154,22 +165,28 @@ padding-left: 50px;
     top: 3.5%;
 }
 
+.rainy-day {
+    width: 100%;
+}
+
 .Run-Buddy{
+    padding-top: 50px;
  width: 100%;
 }
 
 .project-run-buddy{
-width: 50%;
+width: 100%;
 padding-top: 30px;
 }
 
 
 #Contact-Me {
-height: 700px;
-background-color: #0d0221;
+height: 200px;
+background-color: #3317d3;
 }
 
 #Contact-Me h2{
+    margin-top: 0;
     width: fit-content;
     height: fit-content;
     padding-left: 50px;
@@ -183,9 +200,20 @@ background-color: #0d0221;
     width: 70%;
     color: #ffffff;
     padding-right: 30px;
-    border-left: solid 2px #47ffd1;
+    /* border-left: solid 2px #47ffd1; */
     height: fit-content;
     padding-left: 50px;
+    }
+
+    footer {
+        background-color: #0d0221;
+        height: 100px;
+    }
+
+    footer h2 {
+        margin-top: 0;
+        color: #ffffff;
+        margin-left: 30px;
     }
 
 
