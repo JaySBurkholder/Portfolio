@@ -24,7 +24,7 @@ color-scheme: #3317d3, #47ffd1, #ca7df9, #ffffff, #f5e2c8, #0d0221;
 }
 
 /* PC */
-@media only screen and (min-width: 970px) {
+@media only screen and (min-width: 950px) {
 /* adding flexbox and adjusting the height and font color of the header */
 #nav-bar { 
     /* height: 75px; */
